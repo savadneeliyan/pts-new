@@ -1,0 +1,98 @@
+@media (max-width: 400px) {
+    .project{
+        height: 41vh;
+    }
+   
+}
+@media (max-width: 540px) {
+    .banner h1{
+        padding-top: 30%;
+        font-size: 48px;
+    }
+    .project{
+        height: 72vh;
+    }
+    .eachdiv{
+        /* max-height: 200px; */
+    }
+    
+}
+@media (max-width: 768px) {
+    .banner .banner-contents col{
+        width: 70%;
+        margin: auto;
+    }
+    #portfolio {
+         grid-template-columns: repeat(2, 1fr); 
+         grid-template-rows: auto auto;
+        }
+        .project{
+            height: 35vh;
+        }
+        .project .grid__title{
+            bottom: 15px; 
+        }
+        .overlay__inner{
+            width: 70%;
+        }
+        header ul.d-flex{
+            display: none !important;
+        }
+        #burgerBtn{
+            display: block;
+            z-index: 10;
+        }
+  }
+@media (max-width: 992px){
+    .project{
+        height: 33vh;
+    }
+    #portfolio { 
+        grid-template-columns: repeat(3, 1fr);
+     }
+     .overlay__inner{
+        width: 50%;
+    }
+    
+    #mobile.navigation{
+        display: block;
+    }
+    
+}
+@media (max-width: 1400px) {
+    #portfolio { 
+        grid-template-columns: repeat(4, 1fr);
+     }
+     .overlay__inner{
+        width: 50%;
+    }        #mobile.navigation{
+            display: none;
+        }
+        #mobile{
+            display: none;
+        } 
+  }
+  @media (min-width: 1400px) {
+    #portfolio { 
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        overflow: hidden;
+     }
+     ::-webkit-scrollbar{
+        width: 0;
+    }
+    
+     
+     
+  }
+  @media (min-width: 1400px) {
+    #portfolio { 
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+     }
+     .overlay__inner{
+        width: 700px;
+    }
+  }
+  
+
